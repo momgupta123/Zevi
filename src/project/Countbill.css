@@ -1,0 +1,705 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #172746;
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+/* Add media query for mobile devices */
+
+.nav {
+  height: 53px;
+  width: 100%;
+  background-color: white;
+}
+
+.nav img {
+  position: relative;
+  left: 23px;
+  top: 5px;
+  width: 151px;
+  height: 43px;
+}
+
+.Accesdetail {
+  height: 382px;
+  width: 450px;
+  margin-top: 23px;
+  margin-left: 83px;
+  /* background-color: blue; */
+
+}
+
+.button1 {
+  white-space: 0;
+  border: none;
+  top: 35px;
+  position: relative;
+  left: 72px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  color: white;
+  background-color: #0096FF;
+
+}
+
+.para {
+  white-space: 0;
+  border: none;
+  top: 35px;
+  position: relative;
+  left: 69px;
+  font-size: 10px;
+}
+
+.para1 {
+  white-space: 0;
+  border: none;
+  top: 2px;
+  position: relative;
+  left: 270px;
+  font-size: 10px;
+}
+
+.button2 {
+  white-space: unset;
+  border: none;
+  position: relative;
+  top: 2px;
+  left: 280px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  color: white;
+  background-color: #0096FF;
+}
+
+.Accesdetail h1 {
+  font-weight: 100;
+  font-size: 33px;
+  font-family: Raleway;
+  color: white;
+}
+
+.strike {
+  color: white;
+  text-decoration-color: red;
+}
+
+.livetv {
+  position: relative;
+  top: 52px;
+  bottom: 54px;
+}
+
+.livetv img {
+  width: 28px;
+  height: 25px;
+}
+
+.Book {
+  position: relative;
+  top: 17px;
+  bottom: 34px;
+  color: white;
+  width: 28px;
+  height: 25px;
+  margin-top: 2px;
+}
+
+.icon-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-text-container .Book {
+  /* Add any styles for the icon here if needed */
+  margin-right: 10px;
+  /* Add some space between the icon and text */
+}
+
+.text-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.blue-text {
+  color: blue;
+  padding-left: 52px;
+  margin-top: -12px;
+}
+
+.white-text {
+  color: white;
+  margin-left: 5px;
+  /* Add some space between the blue and white text */
+}
+
+.Book1 {
+  position: relative;
+}
+
+.Book1 span {
+  position: relative;
+  top: 10px;
+}
+
+.Book2 {
+  position: relative;
+  top: 32px;
+}
+
+.Book2 span {
+  position: relative;
+  top: 10px;
+}
+
+.Book3 {
+  position: relative;
+  top: 32px;
+}
+
+.Book3 span {
+  position: relative;
+  top: -5px;
+}
+
+.Book4 {
+  position: relative;
+  top: 72px;
+}
+
+.Book4 span {
+  position: relative;
+  top: -5px;
+}
+
+.Book5 {
+  position: relative;
+  top: 102px;
+}
+
+.Book5 span {
+  position: relative;
+  top: -5px;
+}
+
+.scholorshipPlan {
+margin-top: -374px;
+margin-left:622px;
+
+  /* Adjust the value as needed to position the element to the right */
+  top: -373px;
+  width: 434px;
+  height: 680px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow:
+    -6px 0 9px -3px red,
+    /* Left side shadow: 6px left offset, 0px vertical offset, 9px blur radius, -3px spread radius, red color */
+    0 6px 9px -3px red,
+    /* Bottom shadow: 0px left offset, 6px vertical offset, 9px blur radius, -3px spread radius, red color */
+    6px 0 9px -3px blue,
+    /* Right side shadow: 6px right offset, 0px vertical offset, 9px blur radius, -3px spread radius, blue color */
+    0 -6px 9px -3px blue;
+  /* Top shadow: 0px left offset, -6px vertical offset, 9px blur radius, -3px spread radius, blue color */
+  
+  /* Remove padding */
+}
+
+.planheading h3 {
+  position: relative;
+  top: 10px;
+  left: 59px;
+}
+
+.subscription-container {
+  position: relative;
+  top: 28px;
+  left: 13px;
+  width: 367px;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 12px;
+}
+
+hr {
+  position: relative;
+  top: 30px;
+  left: 12px;
+  width: 367px;
+
+}
+
+.SubscrptionFee {
+  font-size: 13px;
+  position: relative;
+  top: 33px;
+  left: 12px;
+}
+
+.Fee {
+  position: relative;
+  top: -13px;
+  left: 320px
+}
+
+/* .subscription-plan{
+    position: relative;
+    top: 43px;
+    left: -7px;
+    width: 367px;
+    height: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  } */
+
+.Limitoffer {
+  padding-top: 4px;
+  padding-left: 3px;
+  font-size: 14px;
+  position: relative;
+  top: 25px;
+  left: 12px;
+  width: 367px;
+  height: 59px;
+  color: red;
+  border: 1px solid rgb(204, 2, 2);
+  background-color: rgb(247, 227, 230);
+}
+
+.LimitofferPrice {
+  position: relative;
+  left: 195px;
+}
+
+.LimitofferClock {
+  position: relative;
+  top: 24px;
+  left: -139px;
+}
+
+.Offervaild {
+  font-size: 13px;
+  position: relative;
+  top: 23px;
+  left: -135px;
+}
+
+.GST {
+  font-size: 13px;
+  position: relative;
+  top: 32px;
+  left: 12px;
+}
+
+.gstprice {
+  position: relative;
+  left: 167px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.check {
+  position: relative;
+  left: 2px;
+}
+
+.check.selected {
+  background-color: aqua;
+}
+
+.subscription-plan input[type="radio"] {
+  position: relative;
+  left: -12px;
+  bottom: 2px;
+}
+
+.Months {
+  position: relative;
+  top: -20px;
+  left: 9px;
+}
+
+.parag {
+  position: relative;
+  top: -52px;
+  font-size: 12px;
+  left: 280px;
+}
+
+.parag1 {
+  position: relative;
+  top: -45px;
+  font-size: 12px;
+  left: 287px;
+}
+
+.total-price {
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.total-price.selected {
+  background-color: #8fd998;
+  /* Green color when selected*/
+}
+
+.total-price h3,
+.total-price p {
+  margin: 5px;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.white-text {
+  color: white;
+}
+
+.cancle {
+  border: 1px solid rgb(204, 2, 2);
+  position: relative;
+  top: 44px;
+  font-size: 11px;
+  left: 12px;
+  width: 87px;
+  height: 35px;
+  color: red;
+  border-radius: 5px;
+}
+
+.procedtopay {
+  border: 1px solid #47BA68;
+  position: relative;
+  top: 44px;
+  font-size: 11px;
+  left: 173px;
+  width: 117px;
+  height: 35px;
+  color: white;
+  background-color: #47BA68;
+  border-radius: 5px;
+}
+
+.razpay {
+  position: relative;
+  top: 52px;
+  left: 12px;
+  width: 120px;
+  height: 38px;
+  border-radius: 5px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  position: relative;
+  top: -42px;
+  color: black;
+  padding-left: 239p;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.search {
+  position: relative;
+  left: 350px;
+  top: 1px;
+}
+
+.log {
+  position: relative;
+  left: 440px;
+  top: 1px;
+}
+
+.joinnow {
+  position: relative;
+  left: 511px;
+  top: -5px;
+  color: white;
+  width: 119px;
+  height: 33px;
+  border: none;
+  background: linear-gradient(to right, rgba(0, 72, 255, 1), rgba(0, 150, 255, 1));
+  border-radius: 23px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+
+/* .Programs {
+  position: relative;
+  left: 103px;
+  top: 9px;
+} */
+
+.subscription-container.blocked {
+  background-color: rgba(207, 203, 203, 0.815);
+  border: 1px solid #c0bdbd;
+  pointer-events: none;
+  opacity: 0.4;
+  /* Add any other styling for the blocked element */
+}
+.courses{
+ 
+  margin-top: -30px;
+  margin-left: 282px;
+}
+.Programs{
+  margin-left:490px;
+}
+.dropdown .dropbtn {
+ position: relative;
+ right: -65px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin:0;
+}
+
+
+
+.navbar a:hover {
+  background-color: white;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden; 
+    width: 100%;
+    height: 100%;
+    background-color: #172746;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;/* Prevent horizontal scrolling on mobile */
+  }
+  /* Adjust the styles as per mobile layout */
+  .Accesdetail {
+    height: 382px;
+  width: 450px;
+  margin-top: 23px;
+  margin-left: 83px;
+  }
+
+  .scholorshipPlan {
+    margin-top: 14px;
+    margin-left:16px;
+    
+      /* Adjust the value as needed to position the element to the right */
+      top:2px;
+      width: 394px;
+      height: 580px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow:
+        -6px 0 9px -3px red,
+        /* Left side shadow: 6px left offset, 0px vertical offset, 9px blur radius, -3px spread radius, red color */
+        0 6px 9px -3px red,
+        /* Bottom shadow: 0px left offset, 6px vertical offset, 9px blur radius, -3px spread radius, red color */
+        6px 0 9px -3px blue,
+        /* Right side shadow: 6px right offset, 0px vertical offset, 9px blur radius, -3px spread radius, blue color */
+        0 -6px 9px -3px blue;
+      /* Top shadow: 0px left offset, -6px vertical offset, 9px blur radius, -3px spread radius, blue color */
+      
+      /* Remove padding */
+    }
+
+  .planheading h3 {
+    position: relative;
+    top: 10px;
+    left: 59px;
+  }
+
+  .subscription-container {
+    position: relative;
+    top: 28px;
+    left: 13px;
+    width: 367px;
+    height: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 12px;
+  }
+
+  .Limitoffer{
+    
+      padding-top: 4px;
+      padding-left: 3px;
+      font-size: 14px;
+      position: relative;
+      top: 25px;
+      left: 12px;
+      width: 367px;
+      height: 59px;
+      color: red;
+      border: 1px solid rgb(204, 2, 2);
+      background-color: rgb(247, 227, 230);
+   
+  }
+  .GST {
+    font-size: 13px;
+    position: relative;
+    top: 32px;
+    left: 12px;
+  }
+
+  
+    .cancle {
+      border: 1px solid rgb(204, 2, 2);
+      position: relative;
+      top: 44px;
+      font-size: 11px;
+      left: 12px;
+      width: 87px;
+      height: 35px;
+      color: red;
+      border-radius: 5px;
+  
+  }
+  .procedtopay {
+    border: 1px solid #47BA68;
+    position: relative;
+    top: 44px;
+    font-size: 11px;
+    left: 173px;
+    width: 117px;
+    height: 35px;
+    color: white;
+    background-color: #47BA68;
+    border-radius: 5px;
+  }
+
+  .razpay {
+    position: relative;
+    top: 52px;
+    left: 12px;
+    width: 120px;
+    height: 38px;
+    border-radius: 5px;
+  }
+
+ 
+
+  .nav img {
+    position: relative;
+    left: 5px;
+    top: 13px;
+    width: 90px;
+    height: 34px;
+  }
+  .courses{
+ 
+    margin-top: -18px;
+    margin-left: 92px;
+  }
+  .Programs{
+    margin-top: -18px;
+    margin-left: 176px;
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color: white;
+  }
+  .log {
+    position: relative;
+    left: 440px;
+    top: 1px;
+  }
+  .nav{
+    width: 220%;
+  }
+  .search {
+    position: relative;
+    left: 350px;
+    top: 1px;
+  }
+
+  .dropdown {
+    position: absolute;
+  }
+
+  
+
+  .joinnow {
+    position: relative;
+    left: 471px;
+    top: -5px;
+    color: white;
+    width: 119px;
+    height: 33px;
+    border: none;
+    background: linear-gradient(to right, rgba(0, 72, 255, 1), rgba(0, 150, 255, 1));
+    border-radius: 23px;
+  }
+}
